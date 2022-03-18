@@ -6,7 +6,7 @@ import PageLayout from "./pages/PageLayout";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/astk-devtoys">
       <Routes>
         <Route path="/" element={<PageLayout />}>
           <Route index element={<Home />} />
